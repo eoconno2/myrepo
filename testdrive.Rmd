@@ -2,7 +2,9 @@
 title: "Test Drive R Markdown"
 author: "Eric O'Connor"
 date: "3/28/2022"
-output: github_document
+output:
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
